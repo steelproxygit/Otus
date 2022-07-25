@@ -11,12 +11,12 @@ class Rectangle(Figure):
         self.h = height
 
     @property
-    def rectangle_perimeter(self):
+    def perimeter(self):
         """rectangle perimeter function"""
         return 2 * (self.w + self.h)
 
     @property
-    def rectangle_area(self):
+    def area(self):
         """rectangle area function"""
         return self.w * self.h
 
@@ -25,5 +25,5 @@ class Rectangle(Figure):
 # x = Rectangle(w, h)
 
 # print(Rectangle.name)
-# print('The perimeter of the rectangle is = {}, The area of the rectangle is = {}'.format(x.rectangle_perimeter(),
-#                                                                                          x.rectangle_area()))
+# print('The perimeter of the rectangle is = {}, The area of the rectangle is = {}'.format(x.perimeter(),
+#                                                                                          x.area()))

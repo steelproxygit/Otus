@@ -12,17 +12,17 @@ class Circle(Figure):
         self.r = radius
 
     @property
-    def circle_circumference(self):
+    def perimeter(self):
         """circle circumference function"""
         return self.r * 2 + math.pi
 
     @property
-    def circle_area(self):
+    def area(self):
         """circle area function"""
         return self.r ** 2 * math.pi
 
 # r = float(input('Enter the radius of the circle: '))
 # x = Circle(r)
 
-# print('The circumference is = {}, The area of the circle is = {}'.format(x.circle_ring(),
-#                                                                          x.circle_area()))
+# print('The circumference is = {}, The area of the circle is = {}'.format(x.perimeter(),
+#                                                                          x.area()))

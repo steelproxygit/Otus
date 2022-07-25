@@ -7,21 +7,21 @@ class Square(Figure):
 
     def __init__(self, side):
         """constructor"""
-        self.side = side
+        self.s = side
 
     @property
-    def square_perimeter(self):
+    def perimeter(self):
         """square perimeter function"""
-        return 4 * self.side
+        return 4 * self.s
 
     @property
-    def square_area(self):
+    def area(self):
         """triangle area function"""
-        return self.side * self.side
+        return self.s * self.s
 
 # s = float(input('Enter the side of the square: '))
 # x = Square(s)
 
 # print(Square.name)
-# print('The perimeter of the square is = {}, The area of the square is = {}'.format(x.square_perimeter(),
-#                                                                                    x.square_area()))
+# print('The perimeter of the square is = {}, The area of the square is = {}'.format(x.perimeter(),
+#                                                                                    x.area()))
