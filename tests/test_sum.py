@@ -1,4 +1,5 @@
 import pytest
+
 from app.function import add
 
 
@@ -10,4 +11,5 @@ from app.function import add
                          ]
                          )
 def test_sum(value, result):
+    """test"""
     assert add(*value) == result
