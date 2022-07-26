@@ -23,5 +23,5 @@ class Square(Figure):
 # x = Square(s)
 
 # print(Square.name)
-# print('The perimeter of the square is = {}, The area of the square is = {}'.format(x.perimeter(),
-#                                                                                    x.area()))
+# print('The perimeter of the square is = {}, The area of the square is = {}'.format(x.perimeter,
+#                                                                                    x.area))

@@ -25,5 +25,5 @@ class Rectangle(Figure):
 # x = Rectangle(w, h)
 
 # print(Rectangle.name)
-# print('The perimeter of the rectangle is = {}, The area of the rectangle is = {}'.format(x.perimeter(),
-#                                                                                          x.area()))
+# print('The perimeter of the rectangle is = {}, The area of the rectangle is = {}'.format(x.perimeter,
+#                                                                                          x.area))

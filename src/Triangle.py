@@ -26,11 +26,12 @@ class Triangle(Figure):
         p = self.perimeter / 2
         return float('%.6f' % math.sqrt(p * (p - self.s1) * (p - self.s2) * (p - self.s3)))
 
+
 # a = float(input('Enter the first side of the triangle: '))
 # b = float(input('Enter the second side of the triangle: '))
 # c = float(input('Enter the third side of the triangle: '))
 # x = Triangle(a, b, c)
 
 # print(Triangle.name)
-# print('The perimeter of the triangle is = {}, The area of the triangle is = {}'.format(x.perimeter(),
-#                                                                                        x.area()))
+# print('The perimeter of the triangle is = {}, The area of the triangle is = {}'.format(x.perimeter,
+#                                                                                        x.area))

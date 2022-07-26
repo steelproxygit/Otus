@@ -1,3 +1,4 @@
 def test_triangle_positive_create(positive_triangle):
-    assert positive_triangle.area == 84
+    """positive triangle creation test"""
     assert positive_triangle.perimeter == 42
+    assert positive_triangle.area == 84
