@@ -5,12 +5,12 @@ class Figure:
     @property
     def perimeter(self) -> float:
         """perimeter function"""
-        return None
+        return True
 
     @property
     def area(self) -> float:
         """area function"""
-        return None
+        return True
 
     def add_perimeter(self, figure):
         """perimeter addition"""
