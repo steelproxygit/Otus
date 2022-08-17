@@ -18,11 +18,10 @@ def library():
                 # adding books item to the end of the list
                 result.append(
                     {
-                        'age': user['age'],
                         'name': user['name'],
                         'gender': user['gender'],
                         'address': user['address'],
-                        'phone': user['phone'],
+                        'age': user['age'],
                         'books': []
                     }
                 )
@@ -37,9 +36,8 @@ def library():
                     {
                         'title': book['Title'],
                         'author': book['Author'],
-                        'genre': book['Genre'],
                         'pages': book['Pages'],
-                        'publisher': book['Publisher']
+                        'genre': book['Genre'],
                     }
                 )
                 i += 1
